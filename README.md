@@ -27,6 +27,7 @@ Troubleshooting
 Responsible use
 Use this app only for media you created, have permission to download, or are otherwise allowed to save. Follow the source platform's terms and applicable copyright rules. The app does not provide login-cookie import, DRM removal, or access to private videos.
 Project layout
+  # Clip library metadata
 local_clipper/
 ├── app.py
 ├── requirements.txt
