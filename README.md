@@ -31,6 +31,7 @@ Run `start.bat` again. It checks and updates the Python packages before starting
 
 - **Python was not found:** Install Python 3.11+ and enable **Add Python to PATH**, then open a new terminal and run `start.bat` again.
 - **A source cannot be loaded:** The provider may have changed its site, may not expose a public downloadable stream, or may require access the local app does not have. Try a different publicly accessible URL and update the app packages.
+- **The page shows a JavaScript `textContent` error or the Download clip button stays disabled:** Close the browser tab, stop the server with `Ctrl+C`, run `start.bat` again, and refresh the page. This version fixes the missing progress-icon reference and forces the browser to load the updated JavaScript.
 - **FFmpeg or conversion error:** Run `start.bat` again to reinstall/update dependencies. The first startup needs internet access to fetch the FFmpeg + FFprobe build if it is not already cached. If the error continues, try MP4 or MP3 and the Precise cut option.
 - **A selected quality is unavailable:** Pick a lower resolution or **Best available**. The app cannot create detail above the source's actual quality.
 - **Browser says the site cannot be reached:** Check that the black terminal window is still open and that it reports `http://127.0.0.1:5050`.

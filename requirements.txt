@@ -1,0 +1,4 @@
+Flask>=3.0,<4.0
+yt-dlp[default]>=2025.1.0
+yt-dlp-ejs
+static-ffmpeg>=3.0
